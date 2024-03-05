@@ -29,12 +29,13 @@ TW Elements is a huge collection of free, interactive components for Tailwind CS
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
-- [Community](#community)
-- [Coming soon](#coming-soon)
-- [Components](#components)
-- [Design blocks](#design-blocks)
-- [Installation](#installation)
+- [TW Elements ](#tw-elements---)
+  - [Table of Contents](#table-of-contents)
+  - [Community](#community)
+  - [Coming soon](#coming-soon)
+  - [Components](#components)
+  - [Design blocks](#design-blocks)
+  - [Installation](#installation) - [NPM](#npm) - [MDB GO / CLI](#mdb-go--cli) - [CDN](#cdn)
 
 ---
 
