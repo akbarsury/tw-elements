@@ -35,7 +35,7 @@ TW Elements is a huge collection of free, interactive components for Tailwind CS
   - [Coming soon](#coming-soon)
   - [Components](#components)
   - [Design blocks](#design-blocks)
-  - [Installation](#installation) - [NPM](#npm) - [MDB GO / CLI](#mdb-go--cli) - [CDN](#cdn)
+  - [Installation](#installation) - [NPM](#npm)
 
 ---
 
@@ -724,9 +724,9 @@ npm install @devops-cora/tw-elements
 module.exports = {
   content: [
     "./src/**/*.{html,js}",
-    "./node_modules/tw-elements/dist/js/**/*.js",
+    "./node_modules/@devops-cora/tw-elements/dist/js/**/*.js",
   ],
-  plugins: [require("tw-elements/dist/plugin")],
+  plugins: [require("@devops-cora/tw-elements/dist/plugin")],
   darkMode: "class",
 };
 ```
@@ -740,78 +740,5 @@ module.exports = {
 Alternatively, you can import it in the following way (bundler version):
 
 ```
-import 'tw-elements';
-```
-
-##### MDB GO / CLI
-
-Create, deploy and host anything with a single command.
-
-1. To start using MDB GO / CLI install it with one command:
-
-```
-npm install -g mdb-cli
-```
-
-2. Log into the CLI using your MDB account:
-
-```
-mdb login
-```
-
-3. Initialize a project and choose **Tailwind Elements** from the list:
-
-```
-mdb init tailwind-elements-free
-```
-
-4. Install the dependencies (inside the project directory):
-
-```
-npm install
-```
-
-5. Run the app:
-
-```
-npm start
-```
-
-6. Publish when you're ready:
-
-```
-mdb publish
-```
-
-##### CDN
-
-You can easily test TW Elements by adding CDN scripts to your classic HTML template without the need for installing any packages.
-
-Add the stylesheet files below in the _head_ section:
-
-```
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-  tailwind.config = {
-    darkMode: "class",
-    theme: {
-      fontFamily: {
-        sans: ["Roboto", "sans-serif"],
-        body: ["Roboto", "sans-serif"],
-        mono: ["ui-monospace", "monospace"],
-      },
-    },
-    corePlugins: {
-      preflight: false,
-    },
-  };
-</script>
-```
-
-Require the js bundled file right before the _body_ closing tag:
-
-```
-<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+import '@devops-cora/tw-elements';
 ```
