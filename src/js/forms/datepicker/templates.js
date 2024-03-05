@@ -125,12 +125,14 @@ export function createContainer(modalContainerClasses) {
 }
 
 function createHeader(day, dayNumber, month, options, classes) {
+  console.log("OPTIONS" + JSON.stringify(options));
+  console.log("CLASSES" + JSON.stringify(classes));
   return `
       <div class="${classes.datepickerHeader}" data-te-datepicker-header>
         <div class="${classes.datepickerTitle}">
           <span class="${classes.datepickerTitleText}">${options.title}</span>
         </div>
-        <div class="${classes.datepickerDate}">
+        <div class="tste">
           <span class="${classes.datepickerDateText}" ${DATE_TEXT_REF} >${options.weekdaysShort[dayNumber]}, ${options.monthsShort[month]} ${day}</span>
         </div>
       </div>
