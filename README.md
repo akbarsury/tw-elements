@@ -715,7 +715,7 @@ Responsive Landing page blocks built with Tailwind CSS. Plenty of design blocks 
 2. Run the following command to install the package via NPM:
 
 ```
-npm install tw-elements
+npm install @devops-cora/tw-elements
 ```
 
 3. TW Elements is a plugin and should be included inside the **tailwind.config.js** file. It is also recommended to extend the content array with a js file that loads dynamic component classes:
