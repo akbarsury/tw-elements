@@ -28,7 +28,6 @@ node_modules
 /mdb
 
 # production
-/dist
 /site/te-starter.zip
 /site/twe-starter.zip
 
