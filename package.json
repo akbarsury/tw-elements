@@ -1,9 +1,9 @@
 {
-  "name": "@devops-cora/tw-elements",
+  "name": "@akbarsury/tw-elements",
   "version": "1.1.1",
   "type": "module",
   "license": "AGPL-3.0-or-later",
-  "homepage": "https://github.com/corabank/tw-elements.git",
+  "homepage": "https://github.com/akbarsury/tw-elements.git",
   "author": "Cora <devops@cora.com.br>",
   "style": "./dist/css/index.min.css",
   "sass": "./src/scss/tailwind.scss",
@@ -39,7 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/corabank/tw-elements.git"
+    "url": "git+https://github.com/akbarsury/tw-elements.git"
   },
   "keywords": [
     "tailwind",
@@ -82,7 +82,7 @@
   },
   "description": "TW Elements is a huge collection of free, interactive components for Tailwind CSS.",
   "bugs": {
-    "url": "https://github.com/corabank/tw-elements/issues"
+    "url": "https://github.com/akbarsury/tw-elements/issues"
   },
   "directories": {
     "test": "test"
